@@ -1,0 +1,8 @@
+mkdir baraaproject
+cd baraaproject 
+touch file1 file2
+git add .
+git commit -m "my files"
+git branch -M main
+git remote add origin git@github.com:BaraaFayezz/baraaproject.git
+git push -u origin main
